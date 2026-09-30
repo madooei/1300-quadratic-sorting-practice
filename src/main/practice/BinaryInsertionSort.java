@@ -11,33 +11,19 @@ public final class BinaryInsertionSort {
   // equal to key.
   // Pre: arr[0..end-1] is sorted.
   private static int insertionPosition(int[] arr, int key, int end) {
-    int low = 0;
-    int high = end - 1;
-    while (low <= high) {
-      int mid = low + (high - low) / 2;
-      if (arr[mid] <= key) {
-        low = mid + 1;
-      } else {
-        high = mid - 1;
-      }
-    }
-    return low;
+    // TODO: Implement me
+    throw new UnsupportedOperationException("TODO: Implement me");
   }
 
   // Moves arr[start..end-1] one slot to the right, overwriting arr[end].
   private static void shiftRight(int[] arr, int start, int end) {
-    for (int k = end; k > start; k--) {
-      arr[k] = arr[k - 1];
-    }
+    // TODO: Implement me
+    throw new UnsupportedOperationException("TODO: Implement me");
   }
 
   // Sorts arr in ascending order, in place. Assumes arr is not null.
   public static void insertionSort(int[] arr) {
-    for (int i = 0; i < arr.length; i++) {
-      int key = arr[i];
-      int j = insertionPosition(arr, key, i);
-      shiftRight(arr, j, i);
-      arr[j] = key;
-    }
+    // TODO: Implement me
+    throw new UnsupportedOperationException("TODO: Implement me");
   }
 }
