@@ -38,7 +38,7 @@ code/
 - `scripts/test.sh practice.CocktailShakerSortTest` — compiles everything and runs only that test class. Use this while you are working on one problem and the other is still empty.
 - `scripts/run.sh demo.CocktailShakerSortDemo` — compiles everything and runs that one demo. Every problem class has its own demo, `<Class>Demo`.
 
-## What's here
+## Contents
 
 - `practice.BinaryInsertionSort` — `insertionSort`, built from two private helpers: `insertionPosition` finds where the key belongs by binary search, placing an equal key after existing equals, and `shiftRight` opens a slot for it.
 - `practice.CocktailShakerSort` — `cocktailShakerSort`, which alternates a forward pass that settles the largest remaining element at the end with a backward pass that settles the smallest at the front, and stops after a pass that swaps nothing.
